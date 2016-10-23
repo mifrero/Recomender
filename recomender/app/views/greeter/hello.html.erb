@@ -1,0 +1,13 @@
+
+
+<h1>Greetings, <%= @name %></h1>
+<p>Find me in app/views/greeter/hello.html.erb</p>
+<p>La hora actual es: <%= formatted_time(@time) %></p>
+<p>Número de veces cargada: <%= @times_displayed%></p>
+
+<p>
+	<%= link_to "Google", "http://www.google.com" %>
+</p>
+<p>
+	<%= link_to "Goodbye", greeter_goodbye_path %>
+</p>
